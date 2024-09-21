@@ -1,0 +1,31 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 100vh; /* Full viewport height */
+    width: 100vw;  /* Full viewport width */
+}
+
+/* style.css */
+.popup-content {
+     font-family: 'Roboto', sans-serif;
+     background-color: #ffffff;
+     color: #333;
+     padding: 6px 10px; /* Adjust padding for better spacing */
+     border-radius: 10px; /* Slightly more rounded corners */
+     max-width: 200px; /* Restrict width for better appearance */
+     text-align: center; /* Center text inside the popup */
+ }
+ 
